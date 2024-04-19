@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+    background-color:rgba(2, 71, 74, 0.26);
+
+}
+header{
+    width: 100%;
+    min-height: 100vh;
+    font-family: sans-serif;
+    position: relative;
+}
+nav{
+    position:absolute;
+    top: 0;
+    z-index: 99;
+    width:100%;
+    height: 100px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70 px;
+}
+.logo{
+    font-size: 2em;
+    letter-spacing: 2px;
+    padding: 4px;
+    margin: 2px;
+}
+.logo span{
+    color:rgb(44, 233, 226) ;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.menu a:first-child{
+    color:rgb(44,233,233);
+}
+.menu a:hover{
+    color: rgb(44, 233, 226);
+}
+.icons i{
+    margin: 0 10px;
+    font-size: 20px;
+    padding: 15px;
+    
+    border: 1px solid grey;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+.icons i:hover{
+    background: rgb(44, 233, 226);
+    color: white;
+}
+#saree{
+    position: absolute;
+    /* bottom: 5%; */
+    right: 10%;
+    width: 600px;
+    height: 695px;
+    overflow: hidden;
+
+}
+.htext{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    max-width: 850px;
+    z-index: 99;
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(15px);
+}
+.htext h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 4em;
+}
+.htext h1 span{
+    color: rgb(44, 233, 226);
+    text-shadow: 2px 3px 5px white;
+}
+.footerbox{
+    background-color:rgb(44,233,233);
+
+    
+    color: azure;
+    width: 100%;
+    text-align: center;
+    min-height: 40px;
+
+}
+.footerbox{
+    color: azure;
+    font-size: 1.5rem;
+    padding: 15px;
+}
